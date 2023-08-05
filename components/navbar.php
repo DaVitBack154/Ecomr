@@ -6,21 +6,10 @@
 <header class="header" id="site-header">
 
     <div class="page-title">
-        <h6>Ecom</h6>
+        <h6 class="title">ecom</h6>
     </div>
 
     <div class="header-content-wrapper">
-        <!-- <form class="search-bar w-search">
-            <div class="form-group with-button">
-                <input class="form-control js-user-search" placeholder="Search here people or pages..." type="text">
-                <button>
-                    <svg class="olymp-magnifying-glass-icon">
-                        <use xlink:href="#olymp-magnifying-glass-icon"></use>
-                    </svg>
-                </button>
-            </div>
-        </form> -->
-
         <div class="control-block">
 
             <div class="author-page author vcard inline-items more">
@@ -163,15 +152,14 @@
 
 <header class="header header-responsive" id="site-header-responsive">
 
-    <div class="header-content-wrapper">
-        <ul class="nav nav-tabs mobile-notification-tabs" id="mobile-notification-tabs" role="tablist" style="
-    display: flex;
-    justify-content: flex-end;
-">
+    <div class="header-content-wrapper align-items-center">
+        <div></div>
+        <div>
+            <p class="mb-0 pb-0 text-mobile title"></p>
+        </div>
+        <ul class="nav nav-tabs mobile-notification-tabs" id="mobile-notification-tabs" role="tablist" style="display: flex;justify-content: flex-end;">
 
-            <li class="nav-item" role="presentation" style="
-    align-self: flex-end;
-">
+            <li class="nav-item" role="presentation" style="align-self: flex-end;">
                 <a class="nav-link me-2" id="search-tab" data-bs-toggle="tab" href="#search" role="tab" aria-controls="search" aria-selected="false">
                     <svg class="olymp-magnifying-glass-icon">
                         <use xlink:href="#olymp-magnifying-glass-icon"></use>
@@ -199,3 +187,20 @@
     <!-- ... end  Tab panes -->
 
 </header>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script>
+    let url = $(location).attr('pathname').split("/");
+    // index.php
+    if (url[2] == "" || url[2] == "index.php") {
+        $(".title").text('Homepage');
+    } else if (url[2] == "categories.php") {
+        $(".title").text('page2');
+    } else if (url[2] == "page3.php") {
+        $(".title").text('E-industry.Net');
+    } else if (url[2] == "page4.php") {
+        $(".title").text('page4');
+    } else if (url[2] == "page5.php") {
+        $(".title").text('page5');
+    }
+</script>

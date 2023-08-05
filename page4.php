@@ -40,12 +40,12 @@
 
 
 
-    <style>
+    <!-- <style>
         .active {
             background-color: white !important;
             color: white;
         }
-    </style>
+    </style> -->
 
 </head>
 

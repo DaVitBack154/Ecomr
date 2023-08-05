@@ -5,7 +5,7 @@
 
         <a href="02-ProfilePage.html" class="logo">
             <div class="img-wrap">
-                <img loading="lazy" src="./assets/img/logo.webp" alt="Olympus" width="34" height="34">
+                <img loading="lazy" src="./assets/img/logo.webp" alt="Olympus" width="40" height="40">
             </div>
         </a>
 
@@ -247,7 +247,7 @@
 
     <div class="fixed-sidebar-left sidebar--small" id="sidebar-left-responsive">
         <a href="#" class="logo js-sidebar-open">
-            <img loading="lazy" src="./assets/img/logo.webp" alt="Olympus" width="34" height="34">
+            <img loading="lazy" src="./assets/img/logo.webp" alt="Olympus" width="40" height="40">
         </a>
 
     </div>
@@ -270,7 +270,7 @@
                         <img alt="author" src="./assets/img/author-page.webp" width="36" height="36" class="avatar">
                         <span class="icon-status online"></span>
                     </div>
-                    <a href="02-ProfilePage.html" class="author-name fn">
+                    <a href="#" class="author-name fn">
                         <div class="author-title">
                             James Spiegel
                             <svg class="olymp-dropdown-arrow-icon">
@@ -292,50 +292,50 @@
                         <svg class="olymp-close-icon left-menu-icon">
                             <use xlink:href="#olymp-close-icon"></use>
                         </svg>
-                        <span class="left-menu-title">Collapse Menu</span>
+                        <span class="left-menu-title">Close Menu</span>
                     </a>
                 </li>
                 <li>
-                    <a href="mobile-index.html">
+                    <a href="index.php">
                         <svg class="olymp-newsfeed-icon left-menu-icon" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="NEWSFEED">
                             <use xlink:href="#olymp-newsfeed-icon"></use>
                         </svg>
-                        <span class="left-menu-title">Newsfeed</span>
+                        <span class="left-menu-title">Homepage</span>
                     </a>
                 </li>
                 <li>
-                    <a href="Mobile-28-YourAccount-PersonalInformation.html">
+                    <a href="categories.php">
                         <svg class="olymp-star-icon left-menu-icon" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="FAV PAGE">
                             <use xlink:href="#olymp-star-icon"></use>
                         </svg>
-                        <span class="left-menu-title">Fav Pages Feed</span>
+                        <span class="left-menu-title">Categorie</span>
                     </a>
                 </li>
                 <li>
-                    <a href="mobile-29-YourAccount-AccountSettings.html">
+                    <a href="page3.php">
                         <svg class="olymp-happy-faces-icon left-menu-icon" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="FRIEND GROUPS">
                             <use xlink:href="#olymp-happy-faces-icon"></use>
                         </svg>
-                        <span class="left-menu-title">Friend Groups</span>
+                        <span class="left-menu-title">BrandProduct</span>
                     </a>
                 </li>
                 <li>
-                    <a href="Mobile-30-YourAccount-ChangePassword.html">
+                    <a href="page4.php">
                         <svg class="olymp-headphones-icon left-menu-icon" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="MUSIC&PLAYLISTS">
                             <use xlink:href="#olymp-headphones-icon"></use>
                         </svg>
-                        <span class="left-menu-title">Music & Playlists</span>
+                        <span class="left-menu-title">Funiture</span>
                     </a>
                 </li>
                 <li>
-                    <a href="Mobile-31-YourAccount-HobbiesAndInterests.html">
+                    <a href="page5.php">
                         <svg class="olymp-weather-icon left-menu-icon" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="WEATHER APP">
                             <use xlink:href="#olymp-weather-icon"></use>
                         </svg>
-                        <span class="left-menu-title">Weather App</span>
+                        <span class="left-menu-title">Page5</span>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="Mobile-32-YourAccount-EducationAndEmployement.html">
                         <svg class="olymp-calendar-icon left-menu-icon" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="CALENDAR AND EVENTS">
                             <use xlink:href="#olymp-calendar-icon"></use>
@@ -374,7 +374,7 @@
                         </svg>
                         <span class="left-menu-title">Manage Widgets</span>
                     </a>
-                </li>
+                </li> -->
             </ul>
 
             <div class="ui-block-title ui-block-title-small">
